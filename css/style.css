@@ -8,6 +8,82 @@
 
 .logo {
     padding-top: 10px;
-    margin-left: 10px;
-    width: 5%;
+    margin-left: 5  0px;
+    width: 4%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.input-text {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+    .input-text:focus {
+        outline: none;
+    }
+
+.encrypted-msg {
+    background: white;
+    background-image: url("../img/muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.encrypted-msg:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encrypt {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-decrypt {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 24px;
+}
+
+.btn-copy {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.advice {
+    color: #495057;
+    font-size: 18px;
 }
