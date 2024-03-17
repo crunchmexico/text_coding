@@ -40,6 +40,7 @@ main {
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
+    height: 944px;
 }
 .encrypted-msg:focus {
     outline: none;
