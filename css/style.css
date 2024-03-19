@@ -6,6 +6,10 @@
     line-height: 150%;
 } 
 
+body {
+    width: 100vw;
+}
+
 .logo {
     padding-top: 10px;
     margin-left: 5  0px;
@@ -32,6 +36,7 @@ main {
 .encrypted-msg {
     background: white;
     background-image: url("../img/muneco.png");
+    background-position: center;
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -39,8 +44,11 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
-    height: 944px;
+    position: relative;
+    height: 766px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
 }
 .encrypted-msg:focus {
     outline: none;
@@ -59,6 +67,9 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
 }
 
 .btn-decrypt {
@@ -70,17 +81,20 @@ main {
     height: 67px;
     width: 328px;
     margin-left: 24px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.43);
 }
 
 .btn-copy {
+    position: absolute;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
+    margin-left: 126px;
+    margin-top: -108px;
     width: 336px;
 }
 
